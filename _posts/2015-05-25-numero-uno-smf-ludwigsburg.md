@@ -1,5 +1,5 @@
 ---
-title: "#1 bei Strassenmusikfestival!!!"
+title: "#1 beim Strassenmusikfestival!!!"
 ---
 
 ![El Flecha Negra 1. Platz bei Straßenmusikfestival in Ludwigsburg](/img/news/smf-ludwigsburg-el-flecha-negra.jpg)
