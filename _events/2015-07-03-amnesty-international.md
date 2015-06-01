@@ -8,4 +8,4 @@ map: https://www.google.de/maps/place/Leopoldring+1,+79098+Freiburg+im+Breisgau/
 published: true
 ---
 
-Wir spielen für den Gewinn der Amnesty International.
+
