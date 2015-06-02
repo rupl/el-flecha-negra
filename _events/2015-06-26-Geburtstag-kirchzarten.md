@@ -1,6 +1,6 @@
 ---
 title: Private Feier
-where: kirchzarten, Schwarzwald
+where: kirchzarten, Deutschland
 date: 2015-06-26
 time: "21:00"
 more-info: 
