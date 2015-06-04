@@ -1,7 +1,7 @@
 <div class="event">
   {% if event.time != null %}
     {% capture timestamp %}T{{ event.time }}+01:00{% endcapture %}
-    {% capture human_date %}{{ event.date | date: "%-d %B" }} <span class="when">at {{ event.time }}</span>{% endcapture %}
+    {% capture human_date %}{{ event.date | date: "%-d %B" }} <span class="when">@ {{ event.time }}</span>{% endcapture %}
   {% else %}
     {% capture timestamp %}{% endcapture %}
     {% capture human_date %}{{ event.date | date: "%-d %B" }}{% endcapture %}
@@ -11,23 +11,21 @@
     {{ human_date }}
     <span class="where">
       {% if event.where %}
-        at
+        bei
         {% if event.map != '' %}
           <a href="{{ event.map }}" class="map" target="_blank" rel="nofollow">{{ event.where }}</a>
         {% else %}
           {{ event.where }}
         {% endif %}
       {% endif %}
+      {% if event.more-info %}
+        <a class="more" href="{{ event.more-info }}" title="mehr-more-mas infos">&#8505;</a>
+      {% endif %}
     </span>
   </time>
   <div class="info">
     <div class="desc">
       {{ event.content }}
-      <span class="more">
-        {% if event.more-info %}
-          &ndash; <a href="{{ event.more-info }}">more info</a>
-        {% endif %}
-      </span>
     </div>
   </div><!-- .info -->
 </div>

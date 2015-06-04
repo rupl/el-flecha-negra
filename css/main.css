@@ -489,10 +489,28 @@ img {
 
 .event time {
   color: #5a3d1e;
-  font-family: 'Rock Salt', 'amsterdam', sans-serif;
-  font-size: 1.8em; }
+  font-family: sans-serif;
+  font-size: 1.1em;
+  font-weight: bold;
+  line-height: 1;
+  white-space: nowrap; }
   .event time .when {
     white-space: nowrap; }
+  .event time .where {
+    display: block;
+    padding-left: 1em;
+    font-weight: normal; }
+    @media (min-width: 660px) {
+      .event time .where {
+        display: inline;
+        padding-left: 0; } }
+  @media (min-width: 660px) {
+    .event time .more {
+      padding: 0 2px;
+      color: blue;
+      background: rgba(255, 255, 255, 0.5);
+      border-radius: 20%;
+      border-bottom: 0; } }
 .event .info {
   margin: 1em 0;
   font-size: 1.2em; }
