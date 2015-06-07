@@ -8,5 +8,3 @@ map: https://www.google.com/maps/place/Teufener+Str.+75/@47.4163632,9.3664481,17
 
 published: true
 ---
-
-We are playing in Switzerland at Tankstell. Afterparty DJ is DJ Wayne Champagne. Starts at 20:00, ends at 3:00.
