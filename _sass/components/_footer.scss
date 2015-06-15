@@ -24,6 +24,7 @@ footer {
       padding-left: $base-gutter - 8px;
       background-repeat: no-repeat;
       background-position: 0 0;
+      background-size: contain;
 
       @include min-width($grid-max) {
         padding-left: $base-gutter;
@@ -31,18 +32,11 @@ footer {
     }
 
     // Individual icons
-    .soundcloud {
-      background-image: url('../img/svg/social-soundcloud.svg');
-    }
-    .youtube {
-      background-image: url('../img/svg/social-youtube.svg');
-    }
-    .facebook {
-      background-image: url('../img/svg/social-facebook.svg');
-    }
-    .twitter {
-      background-image: url('../img/svg/social-twitter.svg');
-    }
+    .soundcloud { background-image: url('../img/svg/social-soundcloud.svg'); }
+    .youtube    { background-image: url('../img/svg/social-youtube.svg'); }
+    .facebook   { background-image: url('../img/svg/social-facebook.svg'); }
+    .twitter    { background-image: url('../img/svg/social-twitter.svg'); }
+    .email      { background-image: url('../img/svg/social-email.svg'); }
   }
 
   .copyright {

@@ -331,7 +331,7 @@ body {
   font-size: 18px;
   font-weight: 200;
   line-height: 1.36; }
-  @media (min-width: 696px) {
+  @media (min-width: 736px) {
     body {
       font-size: 20px; } }
 
@@ -386,7 +386,7 @@ body {
     background-image: url(../img/footer-bg__small.png);
     background-repeat: no-repeat;
     background-size: cover; }
-  @media (min-width: 660px) {
+  @media (min-width: 700px) {
     body:after {
       padding-top: 32%;
       background-image: url(../img/footer-bg.png); } }
@@ -397,7 +397,7 @@ header {
   background-image: url('../img/header-bg__small.png');
   background-repeat: no-repeat;
   background-size: 100% auto; }
-  @media (min-width: 660px) {
+  @media (min-width: 700px) {
     header {
       background-image: none;
       padding-top: 13%; }
@@ -416,7 +416,7 @@ header {
     margin: 0;
     text-align: center; }
   header nav {
-    max-width: 660px;
+    max-width: 700px;
     margin: 0 auto 2em;
     text-align: center; }
     header nav li {
@@ -431,7 +431,7 @@ header {
         font-weight: 700; }
 
 main {
-  max-width: 660px;
+  max-width: 700px;
   margin: 0 auto;
   padding: 0 36px; }
   main img {
@@ -441,7 +441,7 @@ footer {
   position: relative;
   z-index: 6; }
   footer .social {
-    max-width: 660px;
+    max-width: 700px;
     margin: 0 auto;
     padding: 36px 18px;
     text-align: center; }
@@ -450,8 +450,9 @@ footer {
       margin: .5em;
       padding-left: 28px;
       background-repeat: no-repeat;
-      background-position: 0 0; }
-      @media (min-width: 660px) {
+      background-position: 0 0;
+      background-size: contain; }
+      @media (min-width: 700px) {
         footer .social li {
           padding-left: 36px; } }
     footer .social .soundcloud {
@@ -462,8 +463,10 @@ footer {
       background-image: url('../img/svg/social-facebook.svg'); }
     footer .social .twitter {
       background-image: url('../img/svg/social-twitter.svg'); }
+    footer .social .email {
+      background-image: url('../img/svg/social-email.svg'); }
   footer .copyright {
-    max-width: 660px;
+    max-width: 700px;
     margin: 0 auto;
     text-align: center;
     color: #b58647;
@@ -500,11 +503,11 @@ img {
     display: block;
     padding-left: 1em;
     font-weight: normal; }
-    @media (min-width: 660px) {
+    @media (min-width: 700px) {
       .event time .where {
         display: inline;
         padding-left: 0; } }
-  @media (min-width: 660px) {
+  @media (min-width: 700px) {
     .event time .more {
       padding: 0 2px;
       color: blue;
@@ -514,7 +517,7 @@ img {
 .event .info {
   margin: 1em 0;
   font-size: 1.2em; }
-  @media (min-width: 660px) {
+  @media (min-width: 700px) {
     .event .info {
       margin-left: 2em; } }
 .event .map::after {
@@ -544,6 +547,6 @@ body.videos {
   text-align: center; }
   body.videos h1 {
     font-size: 48px; }
-    @media (min-width: 696px) {
+    @media (min-width: 736px) {
       body.videos h1 {
         font-size: 64px; } }
