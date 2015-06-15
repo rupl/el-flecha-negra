@@ -487,6 +487,10 @@ img {
   font-size: 1.25em;
   margin: 1em 3em; }
 
+a[href^='tel:'] {
+  cursor: default;
+  border-bottom: none; }
+
 .front .banner {
   text-align: center; }
 
