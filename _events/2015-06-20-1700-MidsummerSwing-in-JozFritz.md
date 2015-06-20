@@ -4,6 +4,6 @@ where: Midsummer Swing in Joz Fritz
 date: 2015-06-20
 time: "17:00"
 more-info: "https://www.facebook.com/events/674758802656861/"
-map: "https://www.here.com/directions/drive/:error/Jos-Fritz-Café,-Wilhelmstr.-15,-79098-Freiburg,-Alemania:276u0t94-988b8f3daa7647789b552c252b9bd861?map=47.9945,7.84148,17,traffic&x=ep"
+map: "https://www.google.com/maps/place/Jos+Fritz+Caf%C3%A9/@47.994453,7.841433,15z/data=!4m2!3m1!1s0x0:0xcb01f5d5896c8746"
 published: true
 ---
