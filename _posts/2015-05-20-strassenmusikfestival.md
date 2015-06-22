@@ -1,5 +1,5 @@
 ---
-title: Internationales Strassenmusikfestival
+title: Internationales Strassenmusik festival
 ---
 
 [![El Flecha Negra playing at International Street Music Festival](/img/strassenmusikfestival.png)](https://facebook.com/Int.StrassenmusikFestival)
