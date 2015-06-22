@@ -1,6 +1,6 @@
 ---
 title: Midsummer Swing
-where: Jos Fritz, Freiburg
+where: Jos Fritz Café
 date: 2015-06-20
 time: "17:00"
 more-info: "https://www.facebook.com/events/674758802656861/"

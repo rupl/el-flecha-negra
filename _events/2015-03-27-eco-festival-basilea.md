@@ -1,6 +1,6 @@
 ---
 title: eco.festival
-where: eco.festival, Basel, Schweiz
+where: Basel, Schweiz
 date: 2015-03-27
 time: "18:00"
 more-info: "http://www.eco.ch/programm/#freitag"

@@ -1,6 +1,6 @@
 ---
 title: Ethnologie Sommerfest
-where: Institutsgarten, Freiburg
+where: Institutsgarten
 date: 2015-06-12
 time: "20:00"
 more-info: "https://www.facebook.com/events/1613334358881529/" 

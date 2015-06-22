@@ -1,6 +1,6 @@
 ---
 title: Grether Hoffest
-where: Grether Gelaende, Freiburg 
+where: Grether Gelaende
 date: 2015-08-01
 time: "20:00"
 more-info: "http://www.syndikat.org/de/"
