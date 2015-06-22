@@ -1,6 +1,6 @@
 ---
 title: Freiburg Stimmt Ein Festival
-where: Freiburg Stimmt Ein Festival 
+where: Stadtgarten
 date: 2015-06-28
 time: "18:15"
 more-info: "http://www.freiburgstimmtein.de/"

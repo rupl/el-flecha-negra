@@ -4,7 +4,7 @@
 
 // Type defaults
 $base-font: 18px;
-$base-gutter: ($base-font * 2);
+$base-gutter: $base-font;
 
 // Grid max
 $grid-max: 700px;

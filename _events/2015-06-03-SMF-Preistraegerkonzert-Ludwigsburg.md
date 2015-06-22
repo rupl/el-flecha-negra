@@ -1,6 +1,6 @@
 ---
-title: SMF Preistraegerkonzert Ludwigsburg
-where: Musikhalle Ludwigsburg
+title: Preistraegerkonzert
+where: Ludwigsburg
 date: 2015-06-03
 time: "20:00"
 more-info: "http://www.strassenmusikfestival.de/preistraegerkonzert.html"

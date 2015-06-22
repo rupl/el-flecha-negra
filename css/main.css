@@ -331,7 +331,7 @@ body {
   font-size: 18px;
   font-weight: 200;
   line-height: 1.36; }
-  @media (min-width: 736px) {
+  @media (min-width: 718px) {
     body {
       font-size: 20px; } }
 
@@ -433,7 +433,7 @@ header {
 main {
   max-width: 700px;
   margin: 0 auto;
-  padding: 0 36px; }
+  padding: 0 18px; }
   main img {
     border-radius: 3%; }
 
@@ -448,7 +448,7 @@ footer {
     footer .social li {
       display: inline-block;
       margin: .5em;
-      padding-left: 28px;
+      padding-left: 30px;
       background-repeat: no-repeat;
       background-position: 0 0;
       background-size: contain; }
@@ -494,45 +494,47 @@ a[href^='tel:'] {
 .front .banner {
   text-align: center; }
 
-.event time {
-  color: #5a3d1e;
-  font-family: sans-serif;
-  font-size: 1.1em;
-  font-weight: bold;
-  line-height: 1;
-  white-space: nowrap; }
-  .event time .when {
+.event {
+  padding-bottom: 1em; }
+  .event time {
+    color: #5a3d1e;
+    font-family: sans-serif;
+    font-size: 1.1em;
+    font-weight: bold;
+    line-height: 1;
     white-space: nowrap; }
-  .event time .where {
-    display: block;
-    padding-left: 1em;
-    font-weight: normal; }
     @media (min-width: 700px) {
-      .event time .where {
-        display: inline;
-        padding-left: 0; } }
-  @media (min-width: 700px) {
-    .event time .more {
-      padding: 0 2px;
-      color: blue;
-      background: rgba(255, 255, 255, 0.5);
-      border-radius: 20%;
-      border-bottom: 0; } }
-.event .info {
-  margin: 1em 0;
-  font-size: 1.2em; }
-  @media (min-width: 700px) {
-    .event .info {
-      margin-left: 2em; } }
-.event .map::after {
-  content: ' ';
-  display: inline-block;
-  width: 1em;
-  height: 1.17333em;
-  background: url('../img/maps-google.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  transform: translateX(3px) translateY(5px); }
+      .event time br {
+        display: none; } }
+    .event time .what {
+      font-weight: 200;
+      white-space: nowrap; }
+    .event time .when {
+      white-space: nowrap; }
+    .event time .where {
+      display: block;
+      padding-left: 1.4em;
+      font-style: italic;
+      font-weight: normal; }
+      @media (min-width: 700px) {
+        .event time .where {
+          display: inline;
+          padding-left: 0; } }
+  .event .info {
+    margin: 1em 0;
+    font-size: 1.2em; }
+    @media (min-width: 700px) {
+      .event .info {
+        margin-left: 2em; } }
+  .event .map::after {
+    content: ' ';
+    display: inline-block;
+    width: 1em;
+    height: 1.17333em;
+    background: url('../img/maps-google.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    transform: translateX(3px) translateY(5px); }
 
 .video-wrapper {
   position: relative;
@@ -551,6 +553,6 @@ body.videos {
   text-align: center; }
   body.videos h1 {
     font-size: 48px; }
-    @media (min-width: 736px) {
+    @media (min-width: 718px) {
       body.videos h1 {
         font-size: 64px; } }

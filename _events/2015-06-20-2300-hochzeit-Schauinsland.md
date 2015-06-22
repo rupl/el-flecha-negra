@@ -1,5 +1,5 @@
 ---
-title: Private Feiern
+title: Privat Feier
 where: Schauinsland
 date: 2015-06-20
 time: "23:00"

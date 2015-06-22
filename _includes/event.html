@@ -9,23 +9,32 @@
 
   <time datetime="{{ event.date }}{{ timestamp }}">
     {{ human_date }}
+
+    {% if event.more-info %}
+      <span class="what">
+        <a class="more" href="{{ event.more-info }}" title="mehr-more-mas infos" target="_blank" rel="nofollow">{{ event.title }}</a>
+      </span>
+    {% else %}
+      <span class="what">{{ event.title }}</span>
+    {% endif %}<br>
+
     <span class="where">
       {% if event.where %}
         bei
-        {% if event.map != '' %}
+        {% if event.map != null %}
           <a href="{{ event.map }}" class="map" target="_blank" rel="nofollow">{{ event.where }}</a>
         {% else %}
           {{ event.where }}
         {% endif %}
       {% endif %}
-      {% if event.more-info %}
-        <a class="more" href="{{ event.more-info }}" title="mehr-more-mas infos">&#8505;</a>
-      {% endif %}
     </span>
   </time>
-  <div class="info">
-    <div class="desc">
-      {{ event.content }}
-    </div>
-  </div><!-- .info -->
+
+  {% if event.content != '' %}
+    <div class="info">
+      <div class="desc">
+        {{ event.content }}
+      </div>
+    </div><!-- .info -->
+  {% endif %}
 </div>

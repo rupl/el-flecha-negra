@@ -1,6 +1,6 @@
 ---
 title: Amnesty Konzert
-where: Amnesty International Konzert in White Rabbit
+where: White Rabbit
 date: 2015-07-03
 time: "21:00"
 more-info: "http://white-rabbit-club.de/"

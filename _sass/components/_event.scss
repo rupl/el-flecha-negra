@@ -7,6 +7,7 @@
 //
 
 .event {
+  padding-bottom: 1em;
 
   // Event date and time
   time {
@@ -17,13 +18,25 @@
     line-height: 1;
     white-space: nowrap;
 
+    br {
+      @include min-width($grid-max) {
+        display: none;
+      }
+    }
+
+    .what {
+      font-weight: 200;
+      white-space: nowrap;
+    }
+
     .when {
       white-space: nowrap;
     }
 
     .where {
       display: block;
-      padding-left: 1em;
+      padding-left: 1.4em;
+      font-style: italic;
       font-weight: normal;
 
       @include min-width($grid-max) {
@@ -32,15 +45,15 @@
       }
     }
 
-    .more {
-      @include min-width($grid-max) {
-        padding: 0 2px;
-        color: blue;
-        background: rgba(white, .5);
-        border-radius: 20%;
-        border-bottom: 0;
-      }
-    }
+    // .more {
+    //   @include min-width($grid-max) {
+    //     padding: 0 2px;
+    //     color: blue;
+    //     background: rgba(white, .5);
+    //     border-radius: 20%;
+    //     border-bottom: 0;
+    //   }
+    // }
   }
 
   // Short description

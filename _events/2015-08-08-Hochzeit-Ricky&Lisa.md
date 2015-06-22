@@ -1,5 +1,5 @@
 ---
-title: Hochzeit Ricky&Lisa
+title: Hochzeit Ricky & Lisa
 where: Lilienhoh, Ihringen
 date: 2015-08-08
 time: "21:00"

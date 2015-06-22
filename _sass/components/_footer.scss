@@ -14,20 +14,20 @@ footer {
   .social {
     max-width: $grid-max;
     margin: 0 auto;
-    padding: $base-gutter $base-gutter/2;
+    padding: $base-gutter*2 $base-gutter;
     text-align: center;
 
     // Default social link styles
     li {
       display: inline-block;
       margin: .5em;
-      padding-left: $base-gutter - 8px;
+      padding-left: $base-gutter + 12px;
       background-repeat: no-repeat;
       background-position: 0 0;
       background-size: contain;
 
       @include min-width($grid-max) {
-        padding-left: $base-gutter;
+        padding-left: $base-gutter * 2;
       }
     }
 
