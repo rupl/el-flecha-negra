@@ -494,6 +494,18 @@ a[href^='tel:'] {
 .front .banner {
   text-align: center; }
 
+.event-list .year {
+  opacity: .32;
+  font-size: 8em;
+  margin: 0;
+  padding-right: .2em; }
+  @media (min-width: 700px) {
+    .event-list .year {
+      position: absolute;
+      margin-left: -240px; }
+      .event-list .year + .event {
+        margin-top: 40px; } }
+
 .event {
   padding-bottom: 1em; }
   .event time {
