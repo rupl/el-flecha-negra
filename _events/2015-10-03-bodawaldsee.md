@@ -1,5 +1,5 @@
 ---
-title: Jesuitenschloss, Privatfeier
+title: Waldsee, Privatfeier
 where: Freiburg
 date: 2015-10-03
 time: "23:00"
