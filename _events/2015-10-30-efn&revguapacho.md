@@ -1,6 +1,6 @@
 ---
-title: EFN & Revolucion guapachosa
-where: Mamita
+title: EFN & Revolucion Guapachosa
+where: Mamita, Freiburg
 date: 2015-10-30
 time: "22:00"
 more-info: "http://www.mamasita-club.de/"
