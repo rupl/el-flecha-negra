@@ -1,7 +1,7 @@
 <div class="event">
   {% if event.time != null %}
     {% capture timestamp %}T{{ event.time }}+01:00{% endcapture %}
-    {% capture human_date %}{{ event.date | date: "%-d %B" }} <span class="when">, {{ event.time }}</span>{% endcapture %}
+    {% capture human_date %}{{ event.date | date: "%-d %B" }} <span class="when">- {{ event.time }}</span>{% endcapture %}
   {% else %}
     {% capture timestamp %}{% endcapture %}
     {% capture human_date %}{{ event.date | date: "%-d %B" }}{% endcapture %}
