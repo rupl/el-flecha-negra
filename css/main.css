@@ -491,6 +491,17 @@ a[href^='tel:'] {
   cursor: default;
   border-bottom: none; }
 
+.button {
+  display: inline-block;
+  padding: 0 .5em .1em;
+  background: #5a3d1e;
+  border-radius: .4em;
+  color: #ddd;
+  font-size: 2em;
+  font-weight: 700;
+  font-family: 'amsterdam', sans-serif;
+  letter-spacing: 4px; }
+
 .front .banner {
   text-align: center; }
 
