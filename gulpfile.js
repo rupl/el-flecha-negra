@@ -18,6 +18,7 @@ var minCSS = require('gulp-minify-css');
 var critical = require('critical');
 var imagemin = require('gulp-imagemin');
 var taskListing = require('gulp-task-listing');
+var changed = require('gulp-changed');
 
 //////////////////////////////
 // Jekyll
@@ -109,6 +110,7 @@ gulp.task('critical', function (cb) {
 //////////////////////////////
 gulp.task('imagemin', function() {
   return gulp.src('_img/**/*')
+    .pipe(changed('img'))
     .pipe(imagemin({
       progressive: true,
       svgoPlugins: [{removeViewBox: false}]
