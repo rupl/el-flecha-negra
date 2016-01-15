@@ -1,3 +1,4 @@
+---
 title: Europapark
 where: Rust, Deutschland
 date: 2015-06-03
