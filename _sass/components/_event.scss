@@ -31,6 +31,8 @@
 
 .event {
   padding-bottom: 1em;
+  overflow-x: hidden;
+  text-overflow: ellipsis;
 
   // Event date and time
   time {
