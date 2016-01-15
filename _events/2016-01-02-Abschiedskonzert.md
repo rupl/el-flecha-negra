@@ -1,3 +1,4 @@
+---
 title: Abschiedskonzert
 where: La Pepa, Freiburg  
 date: 2016-01-02
