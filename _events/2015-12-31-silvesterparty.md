@@ -1,3 +1,4 @@
+---
 title: Silvester Party
 where: Bahnhof Münstertal, Deutschland 
 date: 2015-12-31
