@@ -1,3 +1,4 @@
+---
 title: ONE WORLD SLAM
 where: Mensabar, Freiburg 
 date: 2015-11-27
