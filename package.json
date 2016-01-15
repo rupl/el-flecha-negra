@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "homepage": "http://elflechanegra.com",
   "repository": "https://github.com/rupl/el-flecha-negra",
+  "license": "MIT",
   "dependencies": {},
   "devDependencies": {
     "browser-sync": "^2.7.6",
