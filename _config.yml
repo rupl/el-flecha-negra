@@ -7,7 +7,7 @@ markdown: kramdown
 redcarpet:
   extensions: ["smart"]
 
-highlighter: pygments
+highlighter: rouge
 exclude: [README.md, config.rb, package.json, gulpfile.js, Gemfile, Gemfile.lock, node_modules, ".vendor", update]
 
 # Content types
