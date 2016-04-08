@@ -3,7 +3,7 @@ permalink: pretty
 debug: false
 development: false
 
-markdown: redcarpet
+markdown: kramdown
 redcarpet:
   extensions: ["smart"]
 
