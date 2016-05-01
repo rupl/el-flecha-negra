@@ -34,6 +34,10 @@
   overflow-x: hidden;
   text-overflow: ellipsis;
 
+  @include min-width($grid-max) {
+    padding-bottom: .25em;
+  }
+
   // Event date and time
   time {
     color: $bold;
@@ -49,8 +53,34 @@
       }
     }
 
+    .on {
+      display: inline-block;
+      text-align: right;
+      min-width: 0px;
+
+      @include min-width($grid-max) {
+        min-width: 80px;
+      }
+    }
+
+    // on mobile there are line breaks. on desktop, none.
+    .what,
+    .where {
+      display: inline-block;
+      padding-left: 1.4em;
+
+      @include min-width($grid-max) {
+        display: inline;
+        padding-left: 0;
+      }
+    }
+
     .what {
       font-weight: 200;
+
+      @include min-width($grid-max) {
+        padding-left: .666em;
+      }
     }
 
     .when {
@@ -58,21 +88,8 @@
     }
 
     .where {
-      display: block;
-      padding-left: 1.4em;
       font-style: italic;
       font-weight: normal;
-    }
-
-    // on mobile there are line breaks. on desktop, none.
-    .what,
-    .where {
-      padding-left: 1.4em;
-
-      @include min-width($grid-max) {
-        display: inline;
-        padding-left: 0;
-      }
     }
   }
 

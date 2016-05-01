@@ -546,6 +546,26 @@ a[href^='tel:'] {
 .front .banner {
   text-align: center; }
 
+.front section {
+  padding-bottom: 1em; }
+  .front section > h1 {
+    color: #5a3d1e; }
+
+@media (min-width: 700px) {
+  .front section.event-list #shows {
+    margin-bottom: 0; } }
+
+.front section.event-list .list-content {
+  overflow: hidden;
+  max-height: 20.95em; }
+  .front section.event-list .list-content .year {
+    display: none; }
+
+.front section.event-list .see-all {
+  font-family: "amsterdam", sans-serif;
+  font-size: 2em;
+  font-weight: 700; }
+
 .event-list .year {
   opacity: .32;
   font-size: 8em;
@@ -562,6 +582,9 @@ a[href^='tel:'] {
   padding-bottom: 1em;
   overflow-x: hidden;
   text-overflow: ellipsis; }
+  @media (min-width: 700px) {
+    .event {
+      padding-bottom: .25em; } }
   .event time {
     color: #5a3d1e;
     font-family: sans-serif;
@@ -572,23 +595,32 @@ a[href^='tel:'] {
     @media (min-width: 700px) {
       .event time br {
         display: none; } }
-    .event time .what {
-      font-weight: 200; }
-    .event time .when {
-      white-space: nowrap; }
-    .event time .where {
-      display: block;
-      padding-left: 1.4em;
-      font-style: italic;
-      font-weight: normal; }
+    .event time .on {
+      display: inline-block;
+      text-align: right;
+      min-width: 0px; }
+      @media (min-width: 700px) {
+        .event time .on {
+          min-width: 80px; } }
     .event time .what,
     .event time .where {
+      display: inline-block;
       padding-left: 1.4em; }
       @media (min-width: 700px) {
         .event time .what,
         .event time .where {
           display: inline;
           padding-left: 0; } }
+    .event time .what {
+      font-weight: 200; }
+      @media (min-width: 700px) {
+        .event time .what {
+          padding-left: .666em; } }
+    .event time .when {
+      white-space: nowrap; }
+    .event time .where {
+      font-style: italic;
+      font-weight: normal; }
   .event .info {
     margin: 1em 0;
     font-size: 1.2em; }

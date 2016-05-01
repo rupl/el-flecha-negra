@@ -1,0 +1,23 @@
+  {% for event in site.events reversed %}
+    {% if event.published != false %}
+
+      {% comment %}Figure out if this should be printed as upcoming or past{% endcomment %}
+      {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
+      {% capture posttime %}{{event.date | date: '%s'}}{% endcapture %}
+      {% if posttime < nowunix %}
+
+        {% comment %}
+          If the year is different than previous event, print year. The prevyear
+          is captured immediately after printing to prepare for the next loop.
+        {% endcomment %}
+        {% capture thisyear %}{{event.date | date: '%Y'}}{% endcapture %}
+        {% if prevyear != thisyear %}
+          <h2 class="year">{{ thisyear }}</h2>
+        {% endif %}
+        {% capture prevyear %}{{ thisyear }}{% endcapture %}
+
+        {% comment %}Print event{% endcomment %}
+        {% include event.html %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}

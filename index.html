@@ -6,10 +6,28 @@ picturefill: true
 bodyclass: front
 ---
 
-{% for news in site.posts limit:3 %}
-  {% include news.html %}
-{% endfor %}
+<section class="event-list" aria-labelledby="shows-title">
+  <h1 id="shows-title">Upcoming Shows</h1>
+  <div class="list-content">
+    {% include event-list--upcoming.html %}
+  </div>
+  <a class="see-all" href="/events/">See all events</a>
+</section>
 
-<h2>Members of <em>El Flecha Negra</em></h2>
+<section class="soudcloud" aria-labelledby="soundcloud-title">
+  <h1 id="soundcloud-title">Music</h1>
+  <!-- Embed code from https://soundcloud.com/el-flecha-negra -->
+  <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/132717114&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+</section>
 
-{% include list-bios.html %}
+<section class="news" aria-labelledby="news-title">
+  <h1 id="news-title">News</h1>
+  {% for news in site.posts limit:3 %}
+    {% include news.html %}
+  {% endfor %}
+</section>
+
+<section class="bios">
+  <h1>Members of <em>El Flecha Negra</em></h1>
+  {% include list-bios.html %}
+</section>
