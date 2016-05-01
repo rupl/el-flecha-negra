@@ -6,4 +6,38 @@
   .banner {
     text-align: center;
   }
+
+  section {
+    padding-bottom: 1em;
+
+    > h1 {
+      color: $bold;
+    }
+  }
+
+  section.event-list {
+    @include min-width($grid-max) {
+      #shows {
+        margin-bottom: 0;
+      }
+    }
+
+    .list-content {
+      overflow: hidden;
+      max-height: 20.95em;
+
+      // hide years. it's only upcoming stuff.
+      .year {
+        display: none;
+      }
+    }
+
+    .see-all {
+      font-family: $amsterdam;
+      font-size: 2em;
+      font-weight: 700;
+    }
+  }
+
+  section.soundcloud {}
 }
