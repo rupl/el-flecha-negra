@@ -484,27 +484,34 @@ footer {
   footer .social {
     max-width: 700px;
     margin: 0 auto;
-    padding: 36px 18px;
+    padding: 36px 0 0;
     text-align: center; }
     footer .social li {
-      display: inline-block;
-      margin: .5em;
-      padding-left: 30px;
-      background-repeat: no-repeat;
-      background-position: 0 0;
-      background-size: contain; }
+      display: inline-block; }
       @media (min-width: 700px) {
         footer .social li {
-          padding-left: 36px; } }
-    footer .social .soundcloud {
+          margin-bottom: 0; } }
+    footer .social a {
+      overflow: hidden;
+      display: inline-block;
+      margin: .5em .4em 0;
+      width: 27px;
+      text-indent: 36px;
+      background-repeat: no-repeat;
+      background-position: 0 0;
+      background-size: contain;
+      border-bottom: 0; }
+    footer .social .soundcloud a {
       background-image: url("../img/svg/social-soundcloud.svg"); }
-    footer .social .youtube {
+    footer .social .youtube a {
       background-image: url("../img/svg/social-youtube.svg"); }
-    footer .social .facebook {
+    footer .social .instagram a {
+      background-image: url("../img/svg/social-instagram.svg"); }
+    footer .social .facebook a {
       background-image: url("../img/svg/social-facebook.svg"); }
-    footer .social .twitter {
+    footer .social .twitter a {
       background-image: url("../img/svg/social-twitter.svg"); }
-    footer .social .email {
+    footer .social .email a {
       background-image: url("../img/svg/social-email.svg"); }
   footer .copyright {
     max-width: 700px;
