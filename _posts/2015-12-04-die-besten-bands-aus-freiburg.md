@@ -1,6 +1,6 @@
 ---
 title: Die Besten Bands aus Freiburg
-published: true
+published: false
 ---
 
 🇩🇪 Hallo Familie,
