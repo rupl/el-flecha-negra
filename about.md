@@ -3,6 +3,8 @@ title: About the Band
 layout: page
 ---
 
+![Group photo](/img/efn-group-2016-03.jpg)
+
 # About _El Flecha Negra_
 
 The essence of _El Flecha Negra_ and his deep wish of exploding into every corner of his creativity is the soul of this young musical group, a result of divergent backgrounds with a growing number of fans every day. They have a unique auditory and visual style which provokes reflection, creates suspense, brings relief, spreads joy, and feeds the spirit of protest while igniting the imagination of all who hear them.
