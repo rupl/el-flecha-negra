@@ -35,7 +35,8 @@ gulp.task('jekyll', function() {
 //////////////////////////////
 gulp.task('browser-sync', function() {
   bs({
-    server: './_site/'
+    server: './_site/',
+    open: false
   });
 });
 
