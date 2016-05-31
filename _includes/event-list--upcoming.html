@@ -1,3 +1,4 @@
+{% assign has_events = false %}
 {% for event in site.events %}
 
   {% comment %}Only process published events.{% endcomment %}
@@ -7,6 +8,7 @@
     {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
     {% capture posttime %}{{event.date | date: '%s'}}{% endcapture %}
     {% if posttime > nowunix %}
+      {% assign has_events = true %}
 
       {% comment %}
         If the year is different than previous event, print year. The prevyear
@@ -23,3 +25,5 @@
     {% endif %}
   {% endif %}
 {% endfor %}
+
+{% if has_events == false %}<p>nichts im moment...</p>{% endif %}
