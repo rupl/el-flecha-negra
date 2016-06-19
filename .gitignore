@@ -6,6 +6,7 @@ _site
 .vendor
 .sass-cache
 .jekyll-assets-cache
+.jekyll-metadata
 node_modules
 sftp-config.json
 
