@@ -1,5 +1,5 @@
 ---
-title: Wodan halle
+title: Wodan halle (privat)
 where: Freiburg, Deutschland
 date: 2016-07-28
 time: "20:30"
