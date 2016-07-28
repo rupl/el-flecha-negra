@@ -1,5 +1,5 @@
 ---
-title: Party Scheune
+title: Privat Feier
 where: Dunningen, Deutschland
 date: 2016-07-30
 time: "21:00"
