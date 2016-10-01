@@ -26,7 +26,7 @@ var changed = require('gulp-changed');
 gulp.task('jekyll', function() {
   bs.notify('Jekyll building...');
 
-  return spawn('bundle', ['exec', 'jekyll', 'build', '--incremental', '--config=_config.yml,_config.dev.yml'], {stdio: 'inherit'})
+  return spawn('bundle', ['exec', 'jekyll', 'build', '--config=_config.yml,_config.dev.yml'], {stdio: 'inherit'})
     .on('close', reload);
 });
 
