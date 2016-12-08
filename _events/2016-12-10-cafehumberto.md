@@ -1,6 +1,6 @@
 ---
 title: Cafe 1A Jubiläum
-where: Lahr , Deutschland
+where: Lahr , DE
 date: 2016-12-10
 time: "20:30"
 more-info: "http://www.cafe1a.de"
