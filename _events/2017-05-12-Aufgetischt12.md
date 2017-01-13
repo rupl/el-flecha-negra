@@ -1,6 +1,6 @@
 ---
 title: Aufgetischt 
-where: St. Gallen , DE 
+where: St. Gallen , CH 
 date: 2017-05-12
 time: ""
 more-info: "https://aufgetischt.sg"
