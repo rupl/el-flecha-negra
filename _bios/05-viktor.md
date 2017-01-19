@@ -1,7 +1,8 @@
 ---
 layout: page
-permalink: Viktor
+permalink: viktor
+
 name:  Myron Manson
 land: Deutschland
-spielt: Electric Guitar
+spielt: electric guitar, vocals
 ---

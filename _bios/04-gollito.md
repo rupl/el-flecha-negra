@@ -1,7 +1,8 @@
 ---
 layout: page
-permalink: Christian
+permalink: gollito
+
 name: Christian Ovalle
 land: Peru
-spielt: Acoustic Guitar
+spielt: acoustic guitar, vocals
 ---
