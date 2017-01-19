@@ -7,25 +7,10 @@ bodyclass: contact
 
 <h1>Contact <em>{{ site.name }}</em></h1>
 
-<p>INFORMATION &amp; MANAGEMENT</p>
-
 <ul>
-  <li>Email: <a href="mailto:elflechanegra@gmail.com">elflechanegra@gmail.com</a></li>
+  <li>Email: <a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
   <li>Tel: <a href="tel:+49-176-27037646">+49 176-27037646</a></li>
   <li>Tel: <a href="tel:+49-157-52532814">+49 157-52532814</a></li>
 </ul>
 
-<h1>BOOKING <em>Black Forest Voodoo</em></h1>
-
-<p>Markus Schumacher</p>
-
-<ul>
-  <li>Email: <a href="mailto:info@black-forest-voodoo.de">info@black-forest-voodoo.de</a></li>
-  <li>Web: <a href="https://www.black-forest-voodoo.de">black-forest-voodoo.de</a></li>
-  <li>Tel: <a href="tel:+49-174-7347382">+49 174-7347382</a></li>
-</ul>
-
-
-
-
-
+{% include booking-info.html %}
