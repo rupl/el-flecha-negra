@@ -1,13 +1,22 @@
 name: El Flecha Negra
+email: elflechanegra@gmail.com
 url: https://elflechanegra.com/
+
+# Social links
+social:
+  facebook: https://www.facebook.com/pages/El-Flecha-Negra/1387897221512304
+  soundcloud: https://soundcloud.com/el-flecha-negra
+  youtube: https://www.youtube.com/channel/UCLTECXuyOGkztnAqIl7TKBA/videos
+  instagram: https://www.instagram.com/elflechanegra
+  twitter: https://twitter.com/El_Flecha_Negra
+
+# Jekyll config
 permalink: pretty
 debug: false
 development: false
-
 markdown: kramdown
 redcarpet:
   extensions: ["smart"]
-
 highlighter: rouge
 exclude: [README.md, config.rb, package.json, gulpfile.js, Gemfile, Gemfile.lock, node_modules, ".vendor", update]
 
