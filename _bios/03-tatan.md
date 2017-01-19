@@ -3,6 +3,6 @@ layout: page
 permalink: tatan
 
 name: Tatán González
-land: Chile
+land: Spain
 spielt: percussion, trumpet, vocals
 ---
