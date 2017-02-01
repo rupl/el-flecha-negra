@@ -1,5 +1,5 @@
 ---
-title: Wasserwerk 
+title: Wasserwerk (+ Malaka Hostel)
 where: Lörrach , DE 
 date: 2017-05-24
 time: "21:00"
