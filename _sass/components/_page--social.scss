@@ -2,12 +2,19 @@
   .social {
     width: 100%;
     max-width: 340px;
-    margin: 0 auto;
+    margin: 0 auto 4em;
     text-align: center;
 
     a {
       width: 120px;
       height: 120px;
+    }
+
+    .soundcloud,
+    .youtube,
+    .twitter,
+    .email {
+      display: none;
     }
   }
 }
