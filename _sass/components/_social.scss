@@ -1,0 +1,36 @@
+//
+// Social links
+//
+.social {
+  list-style-type: none;
+
+  // Default social link styles
+  li {
+    display: inline-block;
+
+    @include min-width($grid-max) {
+      margin-bottom: 0;
+    }
+  }
+
+  // General icon styles
+  a {
+    overflow: hidden;
+    display: inline-block;
+    margin: .5em .4em 0;
+    width: $base-gutter * 1.5;
+    text-indent: 100%;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: contain;
+    border-bottom: 0;
+  }
+
+  // Individual icons
+  .soundcloud a { background-image: url('../img/svg/social-soundcloud.svg'); }
+  .youtube a    { background-image: url('../img/svg/social-youtube.svg'); }
+  .instagram a  { background-image: url('../img/svg/social-instagram.svg'); }
+  .facebook a   { background-image: url('../img/svg/social-facebook.svg'); }
+  .twitter a    { background-image: url('../img/svg/social-twitter.svg'); }
+  .email a      { background-image: url('../img/svg/social-email.svg'); }
+}

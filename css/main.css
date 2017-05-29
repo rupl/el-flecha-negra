@@ -486,33 +486,8 @@ footer {
     margin: 0 auto;
     padding: 36px 0 0;
     text-align: center; }
-    footer .social li {
-      display: inline-block; }
-      @media (min-width: 700px) {
-        footer .social li {
-          margin-bottom: 0; } }
-    footer .social a {
-      overflow: hidden;
-      display: inline-block;
-      margin: .5em .4em 0;
-      width: 27px;
-      text-indent: 36px;
-      background-repeat: no-repeat;
-      background-position: 0 0;
-      background-size: contain;
-      border-bottom: 0; }
-    footer .social .soundcloud a {
-      background-image: url("../img/svg/social-soundcloud.svg"); }
-    footer .social .youtube a {
-      background-image: url("../img/svg/social-youtube.svg"); }
-    footer .social .instagram a {
-      background-image: url("../img/svg/social-instagram.svg"); }
-    footer .social .facebook a {
-      background-image: url("../img/svg/social-facebook.svg"); }
-    footer .social .twitter a {
-      background-image: url("../img/svg/social-twitter.svg"); }
-    footer .social .email a {
-      background-image: url("../img/svg/social-email.svg"); }
+    .page--social footer .social {
+      display: none; }
   footer .copyright {
     max-width: 700px;
     margin: 0 auto;
@@ -549,6 +524,36 @@ a[href^='tel:'] {
   font-weight: 700;
   font-family: "amsterdam", sans-serif;
   letter-spacing: 4px; }
+
+.social {
+  list-style-type: none; }
+  .social li {
+    display: inline-block; }
+    @media (min-width: 700px) {
+      .social li {
+        margin-bottom: 0; } }
+  .social a {
+    overflow: hidden;
+    display: inline-block;
+    margin: .5em .4em 0;
+    width: 27px;
+    text-indent: 100%;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: contain;
+    border-bottom: 0; }
+  .social .soundcloud a {
+    background-image: url("../img/svg/social-soundcloud.svg"); }
+  .social .youtube a {
+    background-image: url("../img/svg/social-youtube.svg"); }
+  .social .instagram a {
+    background-image: url("../img/svg/social-instagram.svg"); }
+  .social .facebook a {
+    background-image: url("../img/svg/social-facebook.svg"); }
+  .social .twitter a {
+    background-image: url("../img/svg/social-twitter.svg"); }
+  .social .email a {
+    background-image: url("../img/svg/social-email.svg"); }
 
 .front .banner {
   text-align: center; }
@@ -664,3 +669,12 @@ body.videos {
     @media (min-width: 718px) {
       body.videos h1 {
         font-size: 64px; } }
+
+.page--social .social {
+  width: 100%;
+  max-width: 340px;
+  margin: 0 auto;
+  text-align: center; }
+  .page--social .social a {
+    width: 120px;
+    height: 120px; }

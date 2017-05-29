@@ -30,14 +30,8 @@
       {{ content }}
     </main>
     <footer role="contentinfo">
-      <ul class="social">
-        <li class="soundcloud"><a href="{{ site.social.soundcloud }}">SoundCloud</a></li>
-        <li class="youtube"><a href="{{ site.social.youtube }}">YouTube</a></li>
-        <li class="instagram"><a href="{{ site.social.instagram }}">Instagram</a></li>
-        <li class="facebook"><a href="{{ site.social.facebook }}">Facebook</a></li>
-        <li class="twitter"><a href="{{ site.social.twitter }}">Twitter</a></li>
-        <li class="email"><a href="mailto:{{ site.email }}">Email</a></li>
-      </ul>
+      {% include social.html %}
+
       <p class="copyright">
         Copyright &#169; {{'now' | date: '%Y'}} El Flecha Negra<br>
         <a href="https://chrisruppel.com/work/">get a website for your band</a>
