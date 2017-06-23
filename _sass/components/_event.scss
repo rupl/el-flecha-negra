@@ -81,6 +81,21 @@
       @include min-width($grid-max) {
         padding-left: .666em;
       }
+
+      a {
+        border-bottom: 0;
+        text-decoration: underline;
+        margin: -0.1em -0.25em;
+        padding: 0.1em 0.25em;
+        border-radius: 5px;
+        transition: none;
+
+        &:hover {
+          color: white;
+          background: $bold;
+          text-decoration: none;
+        }
+      }
     }
 
     .when {
@@ -89,7 +104,7 @@
 
     .where {
       font-style: italic;
-      font-weight: normal;
+      font-weight: 300;
     }
   }
 
