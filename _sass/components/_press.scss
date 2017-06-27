@@ -1,0 +1,19 @@
+.page--press {
+  .no-bullet {
+    list-style-type: none;
+
+    a {
+      font-weight: 400;
+    }
+  }
+  .container {
+    background: rgba($bold, 0.5);
+    color: white;
+    padding: .5em 2em;
+    border-radius: 155px 45px 125px 15px / 25px 125px 35px 155px;
+
+    a {
+      color: white;
+    }
+  }
+}

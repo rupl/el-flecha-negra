@@ -694,3 +694,16 @@ body.videos {
   .page--social .social .twitter,
   .page--social .social .email {
     display: none; }
+
+.page--press .no-bullet {
+  list-style-type: none; }
+  .page--press .no-bullet a {
+    font-weight: 400; }
+
+.page--press .container {
+  background: rgba(90, 61, 30, 0.5);
+  color: white;
+  padding: .5em 2em;
+  border-radius: 155px 45px 125px 15px / 25px 125px 35px 155px; }
+  .page--press .container a {
+    color: white; }
