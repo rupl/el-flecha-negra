@@ -1,5 +1,6 @@
 ---
 title: CD Release Party war toll!
+published: false
 ---
 
 Vielen, vielen Dank, dass ihr bei unserem CD Release Konzert mit uns gefeiert habt!! Wir freuen uns über euch :) Guck unter für die nächste Konzerten, und schau das Video von dem Band an.
