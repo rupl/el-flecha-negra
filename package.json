@@ -4,6 +4,10 @@
   "homepage": "https://elflechanegra.com",
   "repository": "https://github.com/rupl/el-flecha-negra",
   "license": "MIT",
+  "engines": {
+    "node": "8.9.0",
+    "npm": "5.5.1"
+  },
   "dependencies": {},
   "devDependencies": {
     "browser-sync": "^2.7.6",
@@ -24,8 +28,5 @@
     "jshint-stylish": "^1.0.2",
     "kss": "^2.1.0",
     "picturefill": "^2.3.1"
-  },
-  "engines": {
-    "node": ">=4.1.0"
   }
 }
